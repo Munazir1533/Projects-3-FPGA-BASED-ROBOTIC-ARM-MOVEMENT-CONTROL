@@ -78,8 +78,8 @@ end
 endmodule
 
 
-3. PWM Generator
-4. 
+`3. PWM Generator`
+   
 module PWM_Generator(
 
 input [16:0]ref_1,
@@ -94,7 +94,7 @@ output pwm1,pwm2,pwm3
 
  );
 
- 6. Address Generator Module
+` 6. Address Generator Module`
     
     module Addr_Gen(
     
@@ -157,7 +157,7 @@ end
 endmodule
 
 
-5. Testbench
+`5. Testbench`
    
    module PWM_tb;
    
